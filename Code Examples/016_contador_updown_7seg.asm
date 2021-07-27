@@ -1,3 +1,11 @@
+;Programa donde se visualiza en un display de siete segmentos de catodo comun conectado al
+;puerto paralelo en direccion 378H la cuenta de un contador.
+;-Presionando la tecla "U" se hara el incremento de la cuenta, si la cuenta llega a nueve
+;y se presiona U dicha cuenta regresa a cero
+;-Presionando la tecla "D" se hara el decremento de la cuenta, si la cuenta llega a cero
+;y se presiona D dicha cuenta regresa a nueve
+;-Si se presiona "Q" sale del programa.
+
 DATOS SEGMENT
 	CUENTAS DB 0
 	TABLA DB 3FH, 06H, 5BH, 4FH, 66H, 6DH, 7DH, 07H, 7FH, 67H
