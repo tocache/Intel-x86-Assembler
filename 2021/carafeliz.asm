@@ -2,8 +2,8 @@
 DATOS SEGMENT
   TIT1 DB "---------"
   TIT2 DB "|--   -- |"
-  TIT3 DB "|   |     |"
-  TIT4 DB "| \--/  |"
+  TIT3 DB "|   |    |"
+  TIT4 DB "| \---/  |"
   TIT5 DB "---------"
 
 DATOS ENDS
